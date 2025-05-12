@@ -1,42 +1,27 @@
 # Performance Review App
-A responsive intent recognition framework with recursive optimization that achieves high accuracy with minimal computational resources through mathematical optimization.
+A responsive budget allocation Power Apps mockup with a Power Automate integration and SharePoint synchronization for managing employee performance reviews.
 
 ## About This Repository
-The ROME Framework represents a novel approach to intent recognition through recursive optimization. This repository contains the research, theoretical foundations, and implementation guidelines for a framework that achieves 99.90% intent recognition accuracy while requiring 90-95% fewer computational resources than traditional AI approaches. The framework is available as open-source software under the MIT license, enabling free use, modification, and distribution for both academic and commercial purposes.
+This Performance Review App is available for educational and portfolio purposes only, as it represents intellectual work that showcases functionality similar to what I developed during my professional work. This demonstration version does not contain any proprietary data or information and represents a reimplementation of a common business process tool, using only sample data for illustration purposes. For developmental inquiries regarding the interface, please contact edan@analyticintelligencesolutions.com.
 
 # Technical Architecture
-### Pattern Recognition System
-The ROME framework implements a pattern structure with flexible implementation approaches. Its architecture accommodates various integration patterns, whether as a library, middleware, or component within larger systems. The framework's modular design supports implementation across multiple paradigms with appropriate access controls based on implementation needs.
+### User Role-Based Access
+The app provides different views based on user roles. Managers can review all direct reports, assign performance ratings, and allocate compensation up to their budget cap, 110% of total potential employee pay. Employees can document their goals, provide supporting evidence, and complete self-assessments through a simplified interface focused only on their own performance data.
 
-### Resource Optimization
-ROME's design philosophy prioritizes resource efficiency, requiring just 512MB RAM versus 4-16GB for comparable systems. This efficient resource utilization translates to operational cost savings of up to 96.67% compared to traditional AI approaches, making intent recognition technology accessible to organizations of all sizes without substantial infrastructure investments.
+### Budget Management
+Managers benefit from real-time budget calculation and visualization as they make compensation decisions. The system provides visual indicators when compensation allocations exceed available budget and automatically calculates pay amounts based on performance scores, helping managers stay within their allocated compensation limits.
 
-### Context Preservation
-The framework's pattern management system handles context vector storage and retrieval, pattern data persistence, and active pattern caching. Its integration layer consists of three primary components that work together to maintain system efficiency: the pattern management system, real-time processing pipeline, and optimization controller. These components enable seamless integration with existing systems without specialized hardware requirements.
+### Data Synchronization
+The app maintains bidirectional synchronization with SharePoint twice daily through Power Automate flows. This ensures preservation of document history and edit tracking while maintaining proper permission controls for sensitive compensation data across all systems.
 
-### Implementation Interface
-While ROME itself is a backend framework, it provides APIs and integration points for connection to various user interfaces. The framework's 76ms response time (compared to 500ms+ for neural models) ensures responsive performance regardless of the frontend implementation. Its lightweight architecture supports both cloud and edge computing deployments.
+### User Interface
+The interface provides role-appropriate views with security controls to protect sensitive information. Its responsive design works seamlessly on both desktop and mobile devices, with intuitive editing features that provide immediate feedback on changes and their budget impacts.
 
 ## Key Features and Security
-The ROME framework introduces three primary innovations:
-
-1. Dynamic Context Preservation - Maintains historical relevance with automatic deprecation of outdated patterns through the C(t) function
-2. Adaptive Threshold Optimization - Adjusts to varying usage patterns without manual intervention using the α(t) mechanism
-3. Multi-dimensional Pattern Scoring - Balances usage frequency, success rate, and temporal relevance with adjustable weights
-
-The system maintains high security through transparent operations, with 100.00% decision traceability compared to traditional black-box approaches. Its mathematical foundation ensures predictable behavior and reliable performance across implementations.
+The app uses a model-driven approach to track performance data with a score-based rating system using numerical scoring (70-120) that maps to performance categories. Budget allocation logic ensures total compensation stays within departmental budget limits, while automatic SharePoint integration syncs data using Power Automate flows for data consistency. The security model creates security-specific versions of records to maintain data privacy between managers and employees.
 
 ## Process Flow
-The ROME framework processes interactions through four interconnected components:
-
-1. Context tracking function C(t) manages conversation state and maintains context
-2. Vectorization functions preprocess user utterances for pattern matching
-3. Pattern scoring functions identify and evaluate potential patterns
-4. Threshold adjustment system updates α(t) values based on success metrics
-
-The system demonstrates remarkable adaptation capabilities, reaching 95.00% accuracy by interaction 10 and 100.00% accuracy after 22-26 interactions, while maintaining above 99.90% accuracy for existing patterns.
+Users are identified via email address, which determines their role and access level. In the manager review process, managers view all direct reports in a consolidated table, assign performance ratings and specific scores, and see real-time budget impact of compensation decisions. Employees document performance goals and supporting evidence, complete self-assessments, and view their manager's final assessment and compensation decision. All changes automatically synchronize to SharePoint lists with proper permissions applied to ensure data security.
 
 ## Development and Legal
-The ROME framework is freely available as open-source software. We encourage contributions from the community to enhance and extend its capabilities. The framework has been extensively tested across multiple domains, including customer service, technical support, and data analysis, with zero pattern interference between implementations. It maintains stable performance from 100 to 108,900 daily interactions with no degradation at peak capacity.
-
-We welcome pull requests, feature suggestions, and bug reports. If you're implementing ROME in a novel domain or have questions about optimization for specific use cases, please open an issue or contact the maintainers at edan@analyticintelligencesolutions.com.
+Clone the repository to your local machine using Git. No build process is required - simply serve the files locally using a basic HTTP server. Access the development version at localhost:8080 to start exploring the easy-to-use Budget Allocation interface. Feel free to explore how it works, use it as inspiration, or adapt elements for your own projects. As with any code sample, it's always best to understand the concepts and implement your own solution rather than using it directly in production. If you're inspired by this approach, I encourage you to develop your own unique solution with substantial modifications to both design and implementation.
